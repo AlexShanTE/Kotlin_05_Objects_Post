@@ -2,7 +2,7 @@ import java.util.*
 import javax.swing.text.View
 
 data class Post(
-    var id: Int = 0,
+    val id: Int = 0,
     val ownerId: Int = 1,
     val fromId: Int = 1,
     val createdBy: Int = 1,
